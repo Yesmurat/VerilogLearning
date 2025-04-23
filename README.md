@@ -9,7 +9,7 @@ A *wire* represents a physical connection between different elements in a circui
 *reg" represents a "data storage element" that retains/keeps its value until a new value is assigned. It is used in procedural blocks like "always" or "initial" blocks.
 ## Sensitivity list
 
-List of variables in parentheses after always @ is "sensitivity list"
+List of variables in parentheses after "__always @__" is sensitivity list
 They indicate which signals can contribute to changes inside the block.
 
 *posedge* defines the flop as rising-edge triggered (*negedge* would be falling-edge triggered).
